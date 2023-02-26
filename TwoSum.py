@@ -8,3 +8,8 @@ class Solution:
                 res = nums[i] + nums[j]
                 if res == target and i != j :
                     return [i,j]
+
+"""
+The solution I did was to use a nested for loop to iterate through through each element twice and add it to each other, if the indexes of the element are the same, we do not consider that result. 
+
+"""
